@@ -17,7 +17,7 @@ if(idade >= 18) {
 };
 
 
-var participantes = 71
+var participantes = 0
 // Se tiver menos de 100 cadastrados é possível cadastrar, caso contrário não será possível
 while(participantes < 100) {
     cadastar === true;
