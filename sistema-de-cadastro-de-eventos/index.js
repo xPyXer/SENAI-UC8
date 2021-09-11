@@ -1,8 +1,8 @@
 // Verifica se a data é posterior a "7/09/2021"
-var data = "7/09/2021"
+var data = "hoje"
 console.log(data)
-if(data < "7/09/2021") {
-    console.log('Data inválida')
+if(data < "hoje") {
+    console.log('Data inválida, não foi possível fazer o cadastro')
 };
 
 // Abre um prompt para inserir sua idade
@@ -17,7 +17,11 @@ if(idade >= 18) {
 };
 
 
-var participantes = 0
+if participantes = 0 {
+    participantes = false
+}
+
+console.log(participantes)
 // Se tiver menos de 100 cadastrados é possível cadastrar, caso contrário não será possível
 while(participantes < 100) {
     cadastar === true;
