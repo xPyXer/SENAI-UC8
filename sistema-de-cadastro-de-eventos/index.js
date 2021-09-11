@@ -24,4 +24,4 @@ while(participantes < 100) {
 } if (participantes > 100) {
     alert("Cadastro recusado! Limite excedido!")
     cadastar === false;
-}
+};
