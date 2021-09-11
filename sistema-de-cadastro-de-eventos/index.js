@@ -19,6 +19,8 @@ if(idade >= 18) {
 
 if participantes = 0 {
     participantes = false
+} else {
+    participantes = true
 }
 
 console.log(participantes)
